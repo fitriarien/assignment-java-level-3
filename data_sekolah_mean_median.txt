@@ -1,0 +1,47 @@
+Berikut Hasil Pengolahan Nilai:
+
+Berikut hasil sebaran data nilai semua kelas
+Mean: 8.3
+Median: 8
+Modus: 7
+
+Berikut hasil sebaran data nilai kelas A
+Mean: 8.4
+Median: 8
+Modus: 7
+
+Berikut hasil sebaran data nilai kelas B
+Mean: 8.1
+Median: 8
+Modus: 7
+
+Berikut hasil sebaran data nilai kelas C
+Mean: 8.4
+Median: 8
+Modus: 7
+
+Berikut hasil sebaran data nilai kelas D
+Mean: 8.3
+Median: 8
+Modus: 7
+
+Berikut hasil sebaran data nilai kelas E
+Mean: 8.4
+Median: 8
+Modus: 7
+
+Berikut hasil sebaran data nilai kelas F
+Mean: 8.4
+Median: 8
+Modus: 7
+
+Berikut hasil sebaran data nilai kelas G
+Mean: 8.2
+Median: 8
+Modus: 7
+
+Berikut hasil sebaran data nilai kelas H
+Mean: 8.3
+Median: 8
+Modus: 7
+
