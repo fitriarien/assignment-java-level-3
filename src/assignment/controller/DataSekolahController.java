@@ -48,8 +48,6 @@ public class DataSekolahController {
             // untuk genap
             int mid1 = nilaiList.get((banyakNilai/2) - 1);
             int mid2 = nilaiList.get((banyakNilai/2));
-
-            System.out.println("genap " + banyakNilai/2);
             return (mid1 + mid2) / 2;
         }
     }
