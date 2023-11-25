@@ -10,13 +10,13 @@ public class DataSekolahView {
     static String judul = "------------------------------\nAplikasi Pengolah Nilai Siswa\n------------------------------";
     static String exit = "0. Exit";
     static String menuBack = "1. Kembali ke menu utama";
+    static String dir = "C:\\temp\\direktori\\";
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         int menu;
         int submenu;
-        String dir = "C:\\temp\\direktori\\";
         String file = "data_sekolah.csv";
         ArrayList<DataPerKelas> dataPerKelasList = new ArrayList<>();
         ArrayList<Integer> semuaNilai = new ArrayList<>();
@@ -29,7 +29,7 @@ public class DataSekolahView {
         menuUtama:
         do {
             System.out.println(judul);
-            System.out.println("Letakkan file csv dengan nama file data_sekolah di direktori berikut: C://temp//direktori");
+            System.out.println("Letakkan file csv dengan nama file data_sekolah di direktori berikut: C://temp/direktori");
             System.out.println();
             System.out.println("pilih menu:");
             System.out.println("1. Generate txt untuk menampilkan modus");
@@ -194,7 +194,7 @@ public class DataSekolahView {
     public static void printAfterGenerating(boolean isSuccess) {
         if (isSuccess) {
             System.out.println(judul);
-            System.out.println("File telah di-generate di C://temp//direktori");
+            System.out.println("File telah di-generate di " + dir);
             System.out.println("silahkan cek\n");
             System.out.println(exit);
             System.out.println(menuBack);
